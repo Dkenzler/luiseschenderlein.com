@@ -1,0 +1,56 @@
+/* Isotope Transitions */ 
+
+    .isotope, .isotope .isotope-item {
+        -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -ms-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+    }
+    
+    .isotope {
+        -webkit-transition-property: height, width;
+        -moz-transition-property: height, width;
+        -ms-transition-property: height, width;
+        -o-transition-property: height, width;
+        transition-property: height, width;
+    }
+    
+    .isotope .isotope-item {
+        -webkit-transition-property: -webkit-transform, opacity;
+        -moz-transition-property: -moz-transform, opacity;
+        -ms-transition-property: -ms-transform, opacity;
+        -o-transition-property: -o-transform, opacity;
+        transition-property: transform, opacity;
+    }
+    
+    .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+        -webkit-transition-duration: 0s;
+        -moz-transition-duration: 0s;
+        -ms-transition-duration: 0s;
+        -o-transition-duration: 0s;
+        transition-duration: 0s;
+    }
+
+
+/*
+     FILE ARCHIVED ON 06:49:37 Dec 15, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:04:33 Sep 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 62.991
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.075
+  RedisCDXSource: 0.907
+  esindex: 0.007
+  LoadShardBlock: 44.697 (3)
+  PetaboxLoader3.datanode: 96.675 (5)
+  CDXLines.iter: 15.476 (3)
+  load_resource: 160.613 (2)
+  PetaboxLoader3.resolve: 70.674 (2)
+*/
