@@ -35,7 +35,11 @@ there.
     }
 
     .sticky-panel {
-        /*display: none;*/
+        display: none;
+    }
+	
+    .sticky-panel.sticky-panel-top {
+        display: block;
     }
 
     .innerwrap {
